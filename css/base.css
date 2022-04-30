@@ -24,14 +24,11 @@ header {
     align-items: center;
     justify-items: center;
     box-shadow: 5px 5px 5px #bbb;
-    border-radius: 25px;
 }
 
 header img {
     width: 100%;
     height: auto;
-    border: 5px solid white;
-    margin-left: 10px;
 }
 
 footer {
@@ -41,7 +38,6 @@ footer {
     background-color: rgb(52, 180, 137);
     text-align: center;
     box-shadow: 5px 5px 5px #bbb;
-    border-radius: 25px;
 }
 
 .lastmodified {
@@ -54,6 +50,11 @@ h2 {
     padding-bottom: 5px;
     padding-left: 20px;
     font-family: Helvetica, serif;
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 1.5em;
 }
 
 ul {
