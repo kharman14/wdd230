@@ -1,0 +1,17 @@
+@media screen and (min-width: 35.5em) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+}

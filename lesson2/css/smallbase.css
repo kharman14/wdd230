@@ -1,0 +1,62 @@
+body {
+    font-size: 16px;
+    font-family: 'Libre Bodoni', serif;
+    font-weight: 100;
+}
+
+h1 {
+    letter-spacing: 2px;
+    color: white;
+    font-weight: 400;
+}
+
+h2 {
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+header, footer {
+    display: block;
+    text-align: center;
+    background-color: rgb(60, 60, 116);
+    margin: 1rem auto;
+    border: 1px solid #bbb;
+    padding: .5rem;
+}
+
+footer {
+    color: white;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.5em;
+}
+
+section {
+    padding: 1em;
+    display: block;
+}
+
+h3 {
+    background-color: rgb(67, 67, 126);
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    color: white;
+    font-weight: 100;
+}
+
+div {
+    background-color: #bbb;
+    padding: 10px;
+}
+
+img {
+    width: 95%;
+    margin-left: 5px;
+    padding-top: 20px;
+}
