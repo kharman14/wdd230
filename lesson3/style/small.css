@@ -1,0 +1,42 @@
+header, main, footer {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: 'Bebas Neue', serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+header, footer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+	justify-content: center;
+	padding: 10px;
+    background-color: rgba(121, 145, 255, 0.918);
+}
+
+nav {
+    background-color: #36454f;
+	margin: 0 auto;
+    max-width: 780px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	font-size: 0.95rem;
+}
