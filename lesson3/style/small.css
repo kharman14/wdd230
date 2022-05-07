@@ -19,6 +19,7 @@ h1, h2 {
 }
 
 h2 {
+    /* Hex color: #B49A5C */
     background-color: rgba(180, 154, 92, 0.753);
     padding: 10px;
 }
@@ -30,6 +31,7 @@ body {
 
 main {
     padding: 20px;
+    background-color: #fff;
 }
 
 header, footer {
@@ -38,6 +40,7 @@ header, footer {
     align-items: center;
 	justify-content: center;
 	padding: 10px;
+    /* Hex color: #23C3A0 */
     background-color: rgba(35, 195, 160, 0.452);
 }
 
@@ -59,4 +62,18 @@ nav ul li a {
 	text-align: center;
 	padding: 0.75rem;
 	font-size: 0.95rem;
+}
+
+a:hover {
+	background-color: white;
+	color: #36454f;
+}
+
+p {
+    padding: 15px;
+}
+
+h3, h4 {
+    padding: 10px;
+    font-family: 'Bebas Neue', serif;
 }

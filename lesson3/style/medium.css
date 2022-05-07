@@ -6,4 +6,8 @@
 	nav ul li { 
         flex: 1 1 auto; 
     }
+
+    h1 {
+		font-size: 2.5em;
+	}
 }
