@@ -35,10 +35,7 @@ main {
 }
 
 header, footer {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-	justify-content: center;
+    text-align: center;
 	padding: 10px;
     /* Hex color: #23C3A0 */
     background-color: rgba(35, 195, 160, 0.452);
@@ -58,7 +55,6 @@ nav ul li a {
     text-decoration: none;
     color: #fff;
     display: block;
-	color: #fff;
 	text-align: center;
 	padding: 0.75rem;
 	font-size: 0.95rem;
