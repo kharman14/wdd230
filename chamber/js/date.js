@@ -1,7 +1,7 @@
 const currentDateandTime = new Date();
 const copyrightyear = document.querySelector('#copyrightyear');
 
-document.querySelector(".date").innerHTML = 
+document.querySelector("#currentDate").innerHTML = 
     currentDateandTime.toLocaleDateString('en-UK', { weekday:"long", year:"numeric", month:"short", day:"numeric"});
 
 copyrightyear.textContent = currentDateandTime.getFullYear();
