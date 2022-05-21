@@ -12,6 +12,15 @@ body {
     font-size: 16px;
 }
 
+#banner {
+    display: none;
+    text-align: center;
+    padding: 30px;
+    background-color: #36454f;
+    color: white;
+    font-size: 1.2rem;
+}
+
 header {
     background-color: rgba(35, 195, 160, 0.452);
 	padding: 5px 0;
@@ -24,6 +33,7 @@ header {
 .logo {
     grid-column: 1;
     grid-row: 1;
+    align-self: center;
 }
 
 .headings {
@@ -209,10 +219,10 @@ main>div, main>article {
 }
 
 .spot {
-    border: 1px solid #000;
+    border: 1px solid #36454f;
     padding: 10px;
     margin: 10px;
-    background-color: antiquewhite;
+    background-color: white;
 }
 
 .spot img {
@@ -270,7 +280,7 @@ p {
     left: -100%;
     top: 5rem;
     flex-direction: column;
-    background-color: antiquewhite;
+    background-color: white;
     width: 100%;
     border-radius: 10px;
     text-align: center;
