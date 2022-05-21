@@ -112,7 +112,7 @@ footer {
 }
 
 main {
-    max-width: 980px;
+    max-width: 1200px;
     display: grid;
     grid-gap: 10px;
     padding: 15px 0;
