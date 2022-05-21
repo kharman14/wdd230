@@ -1,5 +1,5 @@
 /* Larger viewports */
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 45em) {
 	header img {
 		width: 100%;
 	}
@@ -17,6 +17,10 @@
 		font-size: 1rem;
 	}
 
+	.social svg {
+		width: 48px;
+	}
+
 	#hero {
 		grid-row: 1;
 		grid-column: 1 / 4;
@@ -30,6 +34,7 @@
 	#weather {
 		grid-row: 5;
 		grid-column: 3 / 4;
+		min-width: 0;
 	}
 
 	#news {
