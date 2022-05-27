@@ -19,7 +19,7 @@
         <div id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
     <header>
         <picture class="logo">
-            <img src="images/logo.jpg" alt="Laramie Chamber of Commerce Logo">
+            <img src="images/logo.webp" alt="Laramie Chamber of Commerce Logo">
         </picture>
         <section class="headings">
             <h1>Laramie</h1>
@@ -69,6 +69,11 @@
     </header>
     <main>
         <div id="hero">
+            <picture>
+                <source media="(min-width: 60rem)" srcset="images/large.jpg">
+	            <source media="(min-width: 45rem)" srcset="images/medium.jpg">
+	            <img src="images/small.jpg" alt="Small image">
+            </picture>
             <h2>Welcome to Laramie!</h2>
             <h3><a href="#">Join the Chamber</a></h3>
         </div>
@@ -87,10 +92,10 @@
         <div id="weather">
             <h2>Weather Summary</h2>
             <picture><img src="images/weatherIcon.png" alt="Weather Symbol" width="'100px"></picture>
-            <p id="temperature">38°F</p>
+            <p id="temp-ph"><span id="temperature">38</span>°F</p>
             <h3>Partly Cloudy</h3>
-            <p id="speed">Windspeed: 6 mph</p>
-            <p id="chill">Windchill: 33.8°F</p>
+            <p id="speed-ph">Windspeed: <span id="speed">6</span> mph</p>
+            <p id="chill-ph">Windchill: <span id="chill"></span></p>
         </div>
         <div id="join">
             <h2><a href="#">Join Us!</a></h2>
@@ -120,7 +125,7 @@
     </main>
     <footer>
         <div class="footer1">
-            <img src="images/logo.jpg" alt="Laramie Chamber of Commerce Logo">
+            <img src="images/logo.webp" alt="Laramie Chamber of Commerce Logo">
             <h1>Laramie Chamber of Commerce</h1>
             <p id="p1"><i>800 S. 3rd Street</i></p>
             <p id="p2"><i>Laramie, Wyoming 82070</i></p>
@@ -137,5 +142,6 @@
     </footer>
     <script src="js/chamber.js"></script>
     <script src="js/responsiveMenu.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 </html>
