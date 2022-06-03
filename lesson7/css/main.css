@@ -62,11 +62,11 @@ li {
 	margin-bottom: 0.5rem;
 }
 
-article img[data-src] {
+picture img[data-src] {
 	filter: blur(0.2em);
 }
   
-article img {
+picture img {
 	filter: blur(0em);
 	transition: filter 0.5s;
 }
