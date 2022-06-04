@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laramie Chamber of Commerce Home Page</title>
-    <meta name="description" content="Chamber of Commerce Website Home Page for Katie Harman 
+    <title>Laramie Chamber of Commerce Discover Page</title>
+    <meta name="description" content="Chamber of Commerce Website Discover Page for Katie Harman 
         in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
     <link rel="icon" href="images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="css/large.css">
 </head>
 <body>
-        <div id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
     <header>
         <picture class="logo">
             <img src="images/logo.webp" alt="Laramie Chamber of Commerce Logo">
@@ -46,7 +45,7 @@
         <nav class="navbar">
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="discover.html" class="nav-link">Discover</a>
+                    <a href="index.html" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">Directory</a>
@@ -68,59 +67,53 @@
         <div class="datetracker"><span id="currentDate"></span></div>
     </header>
     <main>
-        <div id="hero">
+        <h1>Discover Laramie</h1>
+        <div id="stats">
+            <h2>Population</h2>
             <picture>
-                <source media="(min-width: 60rem)" srcset="images/laramielarge.jpg">
-	            <source media="(min-width: 45rem)" srcset="images/laramiemedium.jpg">
-	            <img src="images/laramiesmall.jpg" alt="Small image">
+                <img src="images/population.png" alt="Chart of Population of Laramie">
             </picture>
-            <h2>Welcome to Laramie!</h2>
-            <h3><a href="#">Join the Chamber</a></h3>
+            <p>Laramie is the third largest city in Wyoming, with a population of 32,381.</p>
+            <picture>
+                <img src="images/age.png" alt="Population by Age">
+            </picture>
+            <p>Since Laramie is the home to the University of Wyoming, the 
+                University of Wyoming makes up about 12,450 of it's population and is a big 
+                contributor to Laramie's average age.</p>
         </div>
-        <article id="news">
-            <h2>News Release</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies,
-                 dui in molestie dignissim, diam odio volutpat ex, sit amet aliquet 
-                 sem mi volutpat nisi. Cras non blandit elit, sed ullamcorper nibh. 
-                 Ut pharetra semper leo.</p>
-        </article>
-        <div id="event">
-            <h2>Grand Opening</h2>
-            <h3>🍦Katie's Corner🍦</h3>
-            <p>Join us for the grand opening of Katie's Corner, Saturday at 12:00pm.</p>
+        <div id="nature">
+            <h2>Surrounded by Nature</h2>
+            <picture>
+                <img src="images/medicinebow.jpg" alt="Medicine Bow">
+            </picture>
+            <p>Laramie is encircled by forests and mountains in all directions. This includes Medicine Bow National Forest,
+                 Snowy Range Mountains, Vedauwoo, Pole Mountain, Laramie Range, and Curt Gowdy State Park.</p>     
         </div>
-        <div id="weather">
-            <h2>Weather Summary</h2>
-            <picture><img src="images/weatherIcon.png" alt="Weather Symbol" width="100"></picture>
-            <p id="temp-ph"><span id="temperature">38</span>°F</p>
-            <h3>Partly Cloudy</h3>
-            <p id="speed-ph">Windspeed: <span id="speed">6</span> mph</p>
-            <p id="chill-ph">Windchill: <span id="chill"></span></p>
-        </div>
-        <div id="join">
-            <h2><a href="#">Join Us!</a></h2>
-            <p>Discover how to join the Laramie Chamber of 
-                Commerce and how it can work for you!</p>
-        </div>
-        <div id="spotlight">
-            <div class="spot">
-                <h2>Farmer's Market</h2>
-                <img src="images/foodbank.png" alt="Food">
-                <p>Support Local Farmers and Businesses every Thursday night at 5:00pm.</p>
-                <p>email, number, website</p>
-            </div>
-            <div class="spot">
-                <h2>Kid's Club</h2>
-                <img src="images/kidsClub.png" alt="Kid's Club">
-                <p>An After School Blub for Learning and Fun!</p>
-                <p>email, number, website</p>
-            </div>
-            <div class="spot">
-                <h2>Ice Skating</h2>
-                <img src="images/iceSkate.png" alt="Ice Skate">
-                <p>Half Price Lunch and Public Roller Skate.</p>
-                <p>email, number, website</p>
-            </div>
+        <div id="discover">
+            <picture>
+                <img src="images/placeholder.png" data-src="images/breakingthrough.webp" alt="University of Wyoming">
+                <p>Laramie is home to the University of Wyoming, a publice land-grant research university. Along with 
+                    academic and sporting events, the University of Wyoming is also home to a number of museums.</p>
+            </picture>
+            <picture>
+                <img src="images/placeholder.png" data-src="images/hikingsmall.jpg" alt="Vedauwoo Hiking">
+                <p>Since Laramie is surrounded by forests and mountains, there are many wonderful hiking 
+                    and biking trails.</p>
+            </picture>
+            <picture>
+                <img src="images/placeholder.png" data-src="images/prisonsmall.jpg" alt="Wyoming Territorial Prison State Historic Site">
+                <p>The Wyoming Territorial Prison was Wyoming's first State Penitentiary. Take a self-guided tour 
+                    through the Historic site.</p>
+            </picture>
+            <picture>
+                <img src="images/placeholder.png" data-src="images/jubileesmall.jpg" alt="Jubilee Days Logo">
+                <p>Come enjoy Laramie Jubilee Days July2-10 2022! This is a yearly celebration of Wyoming's Statehood.</p>
+            </picture>
+            <picture>
+                <img src="images/placeholder.png" data-src="images/trainsmall.jpg" alt="Train Depot">
+                <p>The Historic Laramie Union Pacific Train Depot, built in 1924, now houses the 
+                    Laramie Historic Railroad Depot Museum.</p>
+            </picture>
         </div>
     </main>
     <footer>
@@ -138,10 +131,12 @@
         <div class="footer3">
             <p>©<span id="copyrightyear"></span>  Laramie Chamber ||  Katie Harman  ||  WDD 230 Project  
                 ||  <span id="lastmodified"></span></p>
+            <p><span id="lastVisit"></span></p>
         </div>
     </footer>
     <script src="js/chamber.js"></script>
     <script src="js/responsiveMenu.js"></script>
-    <script src="js/windchill.js"></script>
+    <script src="js/lazyload.js"></script>
+    <script src="js/lastVisit.js"></script>
 </body>
 </html>
