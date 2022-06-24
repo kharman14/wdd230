@@ -355,3 +355,56 @@ picture img {
 	filter: blur(0em);
 	transition: filter 0.5s;
 }
+
+/*Join Page*/
+form {
+    width: 100%;
+    background-color: rgba(180, 154, 92, 0.753);
+    text-align: center;
+}
+
+fieldset {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid white;
+}
+
+fieldset legend {
+    font-size: 1.3rem;
+    font-family: 'Bebas Neue', serif;
+}
+
+fieldset label {
+    font-weight: 600;
+}
+
+label.text {
+    display: block;
+    padding-top: 10px;
+}
+.text input {
+    padding: 5px;
+    width: 95%;
+}
+
+textarea {
+    padding: 5px;
+    width: 95%;
+}
+
+.button {
+    background-color: #36454f;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.thanks {
+    text-align: center;
+    background-color: rgba(180, 154, 92, 0.753);
+    grid-column: 2;
+    font-size: 1.2rem;
+}

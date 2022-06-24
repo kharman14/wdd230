@@ -4,7 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chamber of Commerce Join Page</title>
+    <meta name="description" content="Chamber of Commerce Website Join Page for Katie Harman 
+    in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
 </head>
 <body>
     <div id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
@@ -37,10 +46,13 @@
         <nav class="navbar">
             <ul class="nav-menu">
                 <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
                     <a href="discover.html" class="nav-link">Discover</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Directory</a>
+                    <a href="directory.html" class="nav-link">Directory</a>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">Join</a>
@@ -58,7 +70,77 @@
         <div class="datetracker"><span id="currentDate"></span></div>
     </header>
     <main>
-
+        <h1>Join the Laramie Chamber of Commerce!</h1>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="text">First Name
+                    <span>*</span>
+                    <input type="text" name="fname" placeholder="John" required>
+                </label>
+                <label class="text">Last Name
+                    <span>*</span>
+                    <input type="text" name="lname" placeholder="Smith" required>
+                </label>
+                <label class="text">Title
+                    <input type="text" name="title" placeholder="Letters, Spaces, and Hyphens only" pattern="[A-Za-z -]{7,}">
+                </label>
+                <label class="text">Email
+                    <span>*</span>
+                    <input type="email" name="email" placeholder="user@email.com" required>
+                </label>
+                <label class="text">Phone
+                    <span>*</span>
+                    <input type="tel" name="phone" placeholder="970-000-0000" required>
+                </label>
+                <label class="text">Business Name
+                    <span>*</span>
+                    <input type="text" name="bname" placeholder="Laramie Chamber of Commerce" required>
+                </label>
+                <label class="date" type="hidden" id="formdate" name="formdate"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership Level</legend>
+                <label>
+                    <input type="radio" name="audience" value="non-profit" required>
+                    Non-Profit Membership - Free
+                    <p>Non-Profit organizations receive all the benefits the chamber has to offer at no cost!</p>
+                </label>
+                <label>
+                    <input type="radio" name="audience" value="bronze" required>
+                    Bronze Membership - $30/month
+                    <p>Bronze members receive access to special seminars and trainings hosted by the Chamber.</p>
+                </label>
+                <label>
+                    <input type="radio" name="audience" value="silver" required>
+                    Silver Membership - $75/month
+                    <p>Silver members will have their businesses displayed on the Chamber Website, 
+                        and be elligible for special discounts provided by the Chamber.</p>
+                </label>
+                <label>
+                    <input type="radio" name="audience" value="gold" required>
+                    Gold Membership - $120/month
+                    <p>Gold member will have all previously mentioned benefits. They will also be spotlighted 
+                        on the Chamber website and be elligible to vote at Chamber meetings.</p>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Describe Your Business</legend>
+                <label>
+                    <textarea name="description" rows="5"></textarea>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Confirm and Apply</legend>
+                <label>
+                    <input type="checkbox" name="agreeconditions" required>
+                    I have read and agree to the terms and conditions of membership for 
+                    the Laramie Chamber of Commerce.
+                    <span>*</span>
+                </label>
+            </fieldset>
+            <input class="button" type="submit" value="Apply for Membership">
+        </form>
     </main>
     <footer>
         <div class="footer1">

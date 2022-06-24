@@ -69,7 +69,7 @@
         height: 100%;
     }
 
-    /**/    
+    /*Menu*/    
     .navbar {
         display: flex;
         justify-content: space-between;
@@ -110,5 +110,10 @@
         font-size: 1.6rem;
         font-weight: 400;
         color: #475569;
+    }
+
+    /*Join*/
+    form {
+        grid-column: 2;
     }
 }
