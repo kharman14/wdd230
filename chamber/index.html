@@ -94,10 +94,10 @@
         </div>
         <div id="weather">
             <h2>Weather Summary</h2>
-            <picture><img src="images/weatherIcon.png" alt="Weather Symbol" width="100"></picture>
-            <p id="temp-ph"><span id="temperature">38</span>°F</p>
-            <h3>Partly Cloudy</h3>
-            <p id="speed-ph">Windspeed: <span id="speed">6</span> mph</p>
+            <picture><img src="" alt="" id="weather-icon"></picture>
+            <p id="temp-ph"><span id="temperature"></span> &deg;F</p>
+            <h3 id="caption"></h3>
+            <p id="speed-ph">Windspeed: <span id="speed"></span> mph</p>
             <p id="chill-ph">Windchill: <span id="chill"></span></p>
         </div>
         <div id="join">
@@ -141,10 +141,12 @@
         <div class="footer3">
             <p>©<span id="copyrightyear"></span>  Laramie Chamber ||  Katie Harman  ||  WDD 230 Project  
                 ||  <span id="lastmodified"></span></p>
+            <p>Weather Data Provided by <a href="https://openweathermap.org/city/5861897">Open Weather Map</a></p>
         </div>
     </footer>
     <script src="js/chamber.js"></script>
     <script src="js/responsiveMenu.js"></script>
+    <script src="js/weatherapi.js"></script>
     <script src="js/windchill.js"></script>
 </body>
 </html>
