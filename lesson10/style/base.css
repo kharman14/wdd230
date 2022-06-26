@@ -1,0 +1,26 @@
+
+body {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+header, footer {
+    background-color: rgb(35, 22, 109);
+    color: white;
+    padding: 0.5rem;
+}
+
+html {
+    background-color: rgba(35, 22, 109, 0.2);
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(187, 134, 20);
+}
