@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+   
+    padding: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.596), 0 6px 20px 0 rgba(0, 0, 0, 0.596);
+    background-color: rgba(100, 148, 237, 0.418);
+}
+
+section {
+    border: 1px solid black;
+    padding: 2px;
+    margin: 5px;
+    background-color: rgba(100, 148, 237, 0.699);
+    height: auto;
+}
+
+img {
+    max-width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.63), 0 6px 20px 0 rgba(0, 0, 0, 0.63);
+    margin: 5px;
+}
+
+header, footer {
+    margin: 10px;
+    color: black;
+    font-size: 1.5rem;
+}
