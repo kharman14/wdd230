@@ -1,4 +1,3 @@
-
 const imagesToLoad = document.querySelectorAll('img[data-src]');
 
 const imgOptions = {
@@ -12,7 +11,7 @@ const loadImages = (image) => {
 };
 
 if('IntersectionObserver' in window) {
-    const imgObserver = new IntersectionObserver((items, observer) => {
+    const imgObserver = new IntersectionObserver((items, imgObserver) => {
         items.forEach((item) => {
             if (!item.isIntersecting) {
                 return;
@@ -27,6 +26,7 @@ if('IntersectionObserver' in window) {
         imgObserver.observe(img);
     });
 }
+
 else {
     imagesToLoad.forEach((img) => {
         loadImages(img);
