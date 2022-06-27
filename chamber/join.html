@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
@@ -58,7 +59,7 @@
                     <a href="#" class="nav-link">Join</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Contact</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
                 </li>
             </ul>
             <div class="hamburger">
@@ -97,32 +98,34 @@
                     <span>*</span>
                     <input type="text" name="bname" placeholder="Laramie Chamber of Commerce" required>
                 </label>
-                <label class="date" type="hidden" id="formdate" name="formdate"></label>
+                <label class="date">
+                    <input type="hidden" id="formdate" name="formdate">
+                </label>
             </fieldset>
             <fieldset>
                 <legend>Membership Level</legend>
                 <label>
                     <input type="radio" name="audience" value="non-profit" required>
                     Non-Profit Membership - Free
-                    <p>Non-Profit organizations receive all the benefits the chamber has to offer at no cost!</p>
                 </label>
+                <p>Non-Profit organizations receive all the benefits the chamber has to offer at no cost!</p>
                 <label>
                     <input type="radio" name="audience" value="bronze" required>
                     Bronze Membership - $30/month
-                    <p>Bronze members receive access to special seminars and trainings hosted by the Chamber.</p>
                 </label>
+                <p>Bronze members receive access to special seminars and trainings hosted by the Chamber.</p>
                 <label>
                     <input type="radio" name="audience" value="silver" required>
                     Silver Membership - $75/month
-                    <p>Silver members will have their businesses displayed on the Chamber Website, 
-                        and be elligible for special discounts provided by the Chamber.</p>
                 </label>
+                <p>Silver members will have their businesses displayed on the Chamber Website, 
+                    and be elligible for special discounts provided by the Chamber.</p>
                 <label>
                     <input type="radio" name="audience" value="gold" required>
                     Gold Membership - $120/month
-                    <p>Gold member will have all previously mentioned benefits. They will also be spotlighted 
-                        on the Chamber website and be elligible to vote at Chamber meetings.</p>
                 </label>
+                <p>Gold member will have all previously mentioned benefits. They will also be spotlighted 
+                    on the Chamber website and be elligible to vote at Chamber meetings.</p>
             </fieldset>
             <fieldset>
                 <legend>Describe Your Business</legend>

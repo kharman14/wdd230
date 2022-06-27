@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laramie Chamber of Commerce Home Page</title>
-    <meta name="description" content="Chamber of Commerce Website Home Page for Katie Harman 
+    <title>Laramie Chamber of Commerce Contact Page</title>
+    <meta name="description" content="Chamber of Commerce Website Contact Page for Katie Harman 
         in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
     <link rel="icon" href="images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,7 +47,7 @@
         <nav class="navbar">
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Home</a>
+                    <a href="index.html" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
                     <a href="discover.html" class="nav-link">Discover</a>
@@ -59,7 +59,7 @@
                     <a href="join.html" class="nav-link">Join</a>
                 </li>
                 <li class="nav-item">
-                    <a href="contact.html" class="nav-link">Contact</a>
+                    <a href="#" class="nav-link">Contact</a>
                 </li>
             </ul>
             <div class="hamburger">
@@ -71,60 +71,7 @@
         <div class="datetracker"><span id="currentDate"></span></div>
     </header>
     <main>
-        <div id="hero">
-            <picture>
-                <source media="(min-width: 60rem)" srcset="images/laramielarge.jpg">
-	            <source media="(min-width: 45rem)" srcset="images/laramiemedium.jpg">
-	            <img src="images/laramiesmall.jpg" alt="Small image">
-            </picture>
-            <h2>Welcome to Laramie!</h2>
-            <h3><a href="#">Join the Chamber</a></h3>
-        </div>
-        <article id="news">
-            <h2>News Release</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies,
-                 dui in molestie dignissim, diam odio volutpat ex, sit amet aliquet 
-                 sem mi volutpat nisi. Cras non blandit elit, sed ullamcorper nibh. 
-                 Ut pharetra semper leo.</p>
-        </article>
-        <div id="event">
-            <h2>Grand Opening</h2>
-            <h3>🍦Katie's Corner🍦</h3>
-            <p>Join us for the grand opening of Katie's Corner, Saturday at 12:00pm.</p>
-        </div>
-        <div id="weather">
-            <h2>Weather Summary</h2>
-            <picture><img src="" alt="" id="weather-icon"></picture>
-            <p id="temp-ph"><span id="temperature"></span> &deg;F</p>
-            <h3 id="caption"></h3>
-            <p id="speed-ph">Windspeed: <span id="speed"></span> mph</p>
-            <p id="chill-ph">Windchill: <span id="chill"></span></p>
-        </div>
-        <div id="join">
-            <h2><a href="#">Join Us!</a></h2>
-            <p>Discover how to join the Laramie Chamber of 
-                Commerce and how it can work for you!</p>
-        </div>
-        <div id="spotlight">
-            <div class="spot">
-                <h2>Farmer's Market</h2>
-                <img src="images/foodbank.png" alt="Food">
-                <p>Support Local Farmers and Businesses every Thursday night at 5:00pm.</p>
-                <p>email, number, website</p>
-            </div>
-            <div class="spot">
-                <h2>Kid's Club</h2>
-                <img src="images/kidsClub.png" alt="Kid's Club">
-                <p>An After School Blub for Learning and Fun!</p>
-                <p>email, number, website</p>
-            </div>
-            <div class="spot">
-                <h2>Ice Skating</h2>
-                <img src="images/iceSkate.png" alt="Ice Skate">
-                <p>Half Price Lunch and Public Roller Skate.</p>
-                <p>email, number, website</p>
-            </div>
-        </div>
+
     </main>
     <footer>
         <div class="footer1">
@@ -141,12 +88,9 @@
         <div class="footer3">
             <p>©<span id="copyrightyear"></span>  Laramie Chamber ||  Katie Harman  ||  WDD 230 Project  
                 ||  <span id="lastmodified"></span></p>
-            <p>Weather Data Provided by <a href="https://openweathermap.org/city/5861897">Open Weather Map</a></p>
         </div>
     </footer>
     <script src="js/chamber.js"></script>
     <script src="js/responsiveMenu.js"></script>
-    <script src="js/weatherapi.js"></script>
-    <script src="js/windchill.js"></script>
 </body>
 </html>
