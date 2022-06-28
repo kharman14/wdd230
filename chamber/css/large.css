@@ -136,4 +136,10 @@
     #discover img {
         max-width: 360px;
     }
+
+    /*Contact*/
+    #contact div {
+        margin-left: 100px;
+        margin-top: -5px;
+    }
 }

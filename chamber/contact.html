@@ -70,8 +70,40 @@
         </nav>
         <div class="datetracker"><span id="currentDate"></span></div>
     </header>
-    <main>
-        
+    <main id="contact">
+        <h1>Contact Us</h1>
+        <div>
+            <h3>Address</h3>
+            <p>Laramie Chamber of Commerce</p>
+            <p>800 S. 3rd Street</p>
+            <p>Laramie, Wyoming 82070</p>
+            <h3>Office Hours</h3>
+            <p>Monday - Thursday: 9:00 a.m. to 4:30 p.m.</p>
+            <h3>Phone</h3>
+            <p>+1(307)878-1234</p>
+            <h3>Email Address</h3>
+            <p>info@laramiecc.org</p>
+        </div>
+        <form method="get">
+            <fieldset>
+                <legend>Contact Form</legend>
+                <p>Send us your questions or comments using the form. We will respond promptly to your inquiry.</p>
+                <i>* indicates required field</i>
+                <label class="text">Name
+                    <span>*</span>
+                    <input type="text" name="fname" placeholder="John Smith" required>
+                </label>
+                <label class="text">Email Address
+                    <span>*</span>
+                    <input type="email" name="email" placeholder="user@email.com" required>
+                </label>
+                <label>Question/Concern
+                    <span>*</span>
+                    <textarea name="description" rows="5" required></textarea>
+                </label>
+                <input class="button" type="submit" value="Send">
+            </fieldset>
+        </form>
     </main>
     <footer>
         <div class="footer1">
