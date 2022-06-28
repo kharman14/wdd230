@@ -104,7 +104,7 @@
 
 	/*Discover Page*/
 	main>h1 {
-		grid-column: 1/4;
+		grid-column: 1/5;
 	}
 	
 	#stats {

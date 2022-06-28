@@ -1,0 +1,77 @@
+{
+    "affiliates": [
+        {
+            "name": "Basic Beginnings",
+            "phone": "307-745-5755",
+            "address": "1474 N 19TH ST",
+            "website": "http://www.basicbeginningsinc.com",
+            "image": "",
+            "membership": "Gold"
+        },
+        {
+            "name": "Daylight Donuts",
+            "phone": "307-745-8174",
+            "address": "151 N 3rd St",
+            "website": "https://daylightdonuts.com/?fbclid=IwAR2LNFiO88Lo4nLmnAEn6PCyvvsTxl1bOjaRHmcryox1K22NX0O7mLv1rEg",
+            "image": "",
+            "membership": "Gold"
+        },
+        {
+            "name": "Big Dipper Ice Cream",
+            "phone": "307-460-3358",
+            "address": "111 E Ivinson Ave",
+            "website": "https://bigdippericecreams.wixsite.com/website",
+            "image": "",
+            "membership": "Gold"
+        },
+        {
+            "name": "Palermos",
+            "phone": "307-460-3637",
+            "address": "207 3rd St",
+            "website": "https://palermos-italian-restaurant.ueniweb.com",
+            "image": "",
+            "membership": "Silver"
+        },
+        {
+            "name": "Anong's Thai Cuisine",
+            "phone": "307-745-6262",
+            "address": "101 E Ivinson St",
+            "website": "http://www.anong-thai.com",
+            "image": "",
+            "membership": "Silver"
+        },
+        {
+            "name": "Buffalo Indian Restaurant",
+            "phone": "307-460-2788",
+            "address": "1502 S 3rd St",
+            "website": "https://buffaloindian.com",
+            "image": "",
+            "membership": "Silver"
+        },
+        {
+            "name": "Niko Sushi & Steak",
+            "phone": "307-742-6842",
+            "address": "1702 Grande Ave",
+            "website": "http://www.nikosushiusa.com",
+            "image": "",
+            "membership": "Bronze"
+        },
+        {
+            "name": "The Human Bean",
+            "phone": "307-761-2254",
+            "address": "2700 Grande Ave",
+            "website": "https://thehumanbean.com",
+            "image": "",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Feeding Laramie Valley",
+            "phone": "307-223-4399",
+            "address": "968 N 9th St",
+            "website": "https://www.feedinglaramievalley.org",
+            "image": "",
+            "membership": "NP"
+        }
+
+    ]
+}

@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/large.css">
 </head>
 <body>
-        <div id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+    <div id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
     <header>
         <picture class="logo">
             <img src="images/logo.webp" alt="Laramie Chamber of Commerce Logo">
@@ -70,7 +70,7 @@
         </nav>
         <div class="datetracker"><span id="currentDate"></span></div>
     </header>
-    <main>
+    <main id="home">
         <div id="hero">
             <picture>
                 <source media="(min-width: 60rem)" srcset="images/laramielarge.jpg">
@@ -78,7 +78,6 @@
 	            <img src="images/laramiesmall.jpg" alt="Small image">
             </picture>
             <h2>Welcome to Laramie!</h2>
-            <h3><a href="#">Join the Chamber</a></h3>
         </div>
         <article id="news">
             <h2>News Release</h2>
@@ -88,9 +87,10 @@
                  Ut pharetra semper leo.</p>
         </article>
         <div id="event">
-            <h2>Grand Opening</h2>
-            <h3>🍦Katie's Corner🍦</h3>
-            <p>Join us for the grand opening of Katie's Corner, Saturday at 12:00pm.</p>
+            <h2>Events</h2>
+            <h3>Downtown Farmers Market</h3>
+            <img src="images/foodbank.png" alt="Food">
+            <p>Come experience Laramie's Downtown Farmer Market every Friday from 3-7pm each week until September 30th! </p>
         </div>
         <div id="weather">
             <h2>Weather Summary</h2>
@@ -101,7 +101,7 @@
             <p id="chill-ph">Windchill: <span id="chill"></span></p>
         </div>
         <div id="join">
-            <h2><a href="#">Join Us!</a></h2>
+            <h2><a href="join.html">Join Us!</a></h2>
             <p>Discover how to join the Laramie Chamber of 
                 Commerce and how it can work for you!</p>
         </div>
@@ -147,6 +147,5 @@
     <script src="js/chamber.js"></script>
     <script src="js/responsiveMenu.js"></script>
     <script src="js/weatherapi.js"></script>
-    <script src="js/windchill.js"></script>
 </body>
 </html>
