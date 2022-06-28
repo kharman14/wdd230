@@ -427,8 +427,13 @@ textarea {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     background-color: transparent;
 }
+
 #directory section {
     padding: 1rem;
     margin: 1rem;
     border: 1.5rem solid rgba(180, 154, 92, 0.753);
+}
+
+.cards img {
+    max-width: 180px;
 }

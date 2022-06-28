@@ -19,8 +19,7 @@ function displayBusiness(business) {
     let member = document.createElement('p');
     let website = document.createElement('a');
     let phone = document.createElement('p');
-    //let picture = document.createElement('img');
-    //let contain = document.createElement('div');
+    let picture = document.createElement('img');
 
     h2.textContent = `${business.name}`;
     address.textContent = `${business.address}`;
@@ -29,12 +28,12 @@ function displayBusiness(business) {
     website.setAttribute('href', business.website);
     phone.textContent = `${business.phone}`;
     
-    //picture.setAttribute('src', );
-    //picture.setAttribute('alt', );
-    //picture.setAttribute('loading', 'lazy');
+    picture.setAttribute('src', business.image);
+    picture.setAttribute('alt', business.name);
+    picture.setAttribute('loading', 'lazy');
 
     card.appendChild(h2);
-    //card.appendChild(picture);
+    card.appendChild(picture);
     card.appendChild(address);
     card.appendChild(website);
     card.appendChild(phone);
