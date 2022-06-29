@@ -27,7 +27,7 @@ function invite() {
         banner.style.display = 'none';
     }
 
-    console.log(dayOfWeek);
+    //console.log(dayOfWeek);
 };
 
 invite();
