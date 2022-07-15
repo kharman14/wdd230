@@ -1,0 +1,76 @@
+{
+    "temples": [
+        {
+            "name": "Provo City Center",
+            "address": "50 South University Ave Provo Ut 84601",
+            "phone": "(1)801-343-2700",
+            "email": "",
+            "services": "Clothing rental, distribution center nearby",
+            "dedicated": "20 March 2016",
+            "ordinance": "By appointment",
+            "session": "By appointment",
+            "closure": "Saturday, 1 October 2022",
+            "image": ""
+        },
+        {
+            "name": "Laie",
+            "address": "55-600 Naniloa Loop Laie HI 96762-2202",
+            "phone": "(1)808-293-2427",
+            "email": "",
+            "services": "Clothing rental, distribution center nearby",
+            "dedicated": "Rededicated: 21 November 2010",
+            "ordinance": "By appointment",
+            "session": "By appointment",
+            "closure": "Friday, 30 September 2022 (Limited Operations)",
+            "image": ""
+        },
+        {
+            "name": "Tokyo",
+            "address": "5-8-10 Minami Azabu, Minato-ku, Tokyo 106-0047",
+            "phone": "81345453000",
+            "email": "",
+            "services": "clothing rental, patron housing, distribution center nearby",
+            "dedicated": "27 October 1980",
+            "ordinance": "By appointment",
+            "session": "By appointment",
+            "closure": "Saturday, 8 October 2022",
+            "image": ""
+        },
+        {
+            "name": "Manhattan New York City",
+            "address": "125 Columbus Ave, Fourth Floor New York NY 10023-6514",
+            "phone": "19174418220",
+            "email": "",
+            "services": "Clothing rental, distribution center nearby",
+            "dedicated": "13 June 2004",
+            "ordinance": "By appointment",
+            "session": "By appointment",
+            "closure": "Monday, 25 July 2022 - Monday, 8 August 2022",
+            "image": ""
+        },
+        {
+            "name": "Washington D.C.",
+            "address": "9900 Stoneybrook Dr Kensington MD 20895-3199",
+            "phone": "",
+            "email": "",
+            "services": "",
+            "dedicated": "Rededicated: 14 August 2022",
+            "ordinance": "",
+            "session": "",
+            "closure": "",
+            "image": ""
+        },
+        {
+            "name": "Nauvoo",
+            "address": "50 N Wells St Nauvoo, IL 62354",
+            "phone": "12174536252",
+            "email": "",
+            "services": "clothing rental, patron housing",
+            "dedicated": "27 June 2002",
+            "ordinance": "By appointment",
+            "session": "By appointment",
+            "closure": "Monday, 26 September 2022- Monday, 24 October 2022",
+            "image": ""
+        }
+    ]
+}    

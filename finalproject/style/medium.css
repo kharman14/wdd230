@@ -1,3 +1,14 @@
 @media only screen and (min-width: 45rem) {
-
+    footer {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .weather {
+        width: 450px;
+    }
+    .forecast p {
+        min-width: 40px;
+    }
+    .forecast h5 {
+        display: block;
+    }
 }
