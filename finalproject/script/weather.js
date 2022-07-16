@@ -35,6 +35,26 @@ function displayResults(weatherData) {
     captionDesc.textContent = new_desc;
     humidity.textContent = weatherData.current.humidity;
 
+    // Print closeable banner if alert is present
+    if ('alerts' in weatherData) {
+        const banner = document.querySelector('#banner');
+        banner.style.display = 'flex';
+
+        const alert_event = weatherData.alerts.event;
+        const alert_name = weatherData.alerts.sender_name;
+        let alert = document.querySelector('.alert');
+        alert.textContent = `Warning ${alert_event}. Alert by ${alert_name}`;
+        
+        let dismiss = document.querySelector('.dismiss');
+        dismiss.textContent = `X`;
+
+        dismiss.addEventListener('click', closeFunction);
+
+        function closeFunction() {
+            banner.style.display = 'none';
+        }     
+    }
+
     // Sets temperature, weather icon and description for each day of the three day forecast
     for (var i = 1; i < 4; i++) {
         const forecast = document.querySelector(`#temp-forecast${i}`);

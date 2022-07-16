@@ -28,6 +28,17 @@ a:hover {
     color: #F6AE2D;
 }
 
+.hero img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.temple img {
+    width: 100%;
+}
+
 /* Menu */
 .navbar {
     grid-column: 4;
@@ -146,4 +157,17 @@ form {
     padding: .5rem;
     align-self: center;
     display: none;
+}
+
+
+/* Closeable Alert */
+#banner {
+    width: 100%;
+    padding: 1rem;
+    display: none;
+    background-color: #F6AE2D;
+}
+
+.dismiss {
+    cursor: pointer;
 }
