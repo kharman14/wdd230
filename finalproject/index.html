@@ -42,18 +42,20 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="home">
         <div id="banner">
             <p class="alert"></p>
             <span class="dismiss"></span>
         </div>
-        <form method="get">
+        <form method="get" action="reservation.html">
             <label>
                 Destination
                 <input list="locations">
                 <datalist id="locations">
-                    <option value="Salt Lake Temple">
-                    <option value="Hawaii Temple">
+                    <option value="Provo City Center Temple">
+                    <option value="Laie Hawaii Temple">
+                    <option value="Washington D.C. Temple">
+                    <option value="Nauvoo Illinios Temple">
                     <option value="Tokyo Temple"></option>
                 </datalist>
             </label>
@@ -65,16 +67,34 @@
                 <input class="button" type="submit" value="Make a Reservation">
             </label>
         </form>
-        <picture class="hero">
-            <img src="images/family_pool.jpg" alt="Family jumping in pool">
-        </picture>
-        <h2>Temple</h2>
-        <picture class="temple">
-            <img src="images/laie_hawaii_temple.jpg" alt="Laie Hawaii Temple">
-        </picture>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit 
-            explicabo voluptatem accusantium velit quod veniam maxime sit enim porro 
-            consequuntur doloribus sapiente ducimus molestias delectus, iusto eum magni deleniti fuga.</p>
+            <picture class="hero">
+                <img src="images/family_pool.jpg" alt="Family jumping in pool">
+                <a href="reservation.html">Book Today</a>
+            </picture>
+            
+        <section>
+            <h2>Forever Starts Today</h2>
+            <picture>
+                <img src="images/family_temple_.jpg" alt="Family at the temple" width="300">
+            </picture>
+            <p> Have a bucketlist of visiting temples around the world? Then, Temple Inn & 
+                Suites is the perfect hotel for you and your family. Enjoy the blessings of attending 
+                the temple, without the stress of figuring out where to stay, how close it is to the temple,
+                or where to have your kids stay while you attend. With your temple experinece in 
+                mind, we provide many services to make your stay and temple worship that much more 
+                pleasant and convenient.</p>
+        </section>
+        <section>
+            <h2>Laie Hawaii Temple</h2>
+            <p>The Laie Hawaii Temple is located on the beautiful Hawaiian Island of Oahu. The 
+                Laie Temple was dedicated on November 27, 1919 and rededicated on November 21, 2010. Currently, 
+                you can perform ordinances and sessions by appointment. The Laie Temple 
+                services include clothing rental, and a nearby distribution center.
+            </p>
+            <picture class="temple">
+                <img src="images/laie_hawaii_temple.jpg" alt="Laie Hawaii Temple">
+            </picture>
+        </section>
         <div class="weather">
             <h3>Weather</h3>
             <picture><img src="#" alt="#" id="weather-icon"></picture>
@@ -93,14 +113,14 @@
                 <h5 id="forecast-caption3">Description</h3>
                 <p><span id="temp-forecast3"></span> &deg;F</p>
             </div>
+            <p id="reference">Weather Data Provided by <a href="https://openweathermap.org/">Open Weather Map</a></p>
         </div>
     </main>
+    <hr>
     <footer>
-        <picture class="logo">
-            <a href="index.html"><img src="images/logo.png" alt="Temple Inn & Suites Logo"></a>
-        </picture>
         <h1>Temple Inn & Suites</h1>
         <a href="https://goo.gl/maps/Rg4gUoJMXDhAsvUm7">4800 Montgomery Ln #300, Bethesda, MD 20814</a>
+        <p>Contact Us at +1(240)-987-2020</p>
         <div class="social">
             <a href="https://facebook.com"><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g>

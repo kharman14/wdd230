@@ -6,14 +6,14 @@ const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('#caption');
 const humidity = document.querySelector('#humidity');
 
-const url = `https://api.openweathermap.org/data/2.5/onecall?lat=21.4389&lon=158.0001&exclude=hourly&units=imperial&appid=12240cde702580291dd8baa5ce236efa`;
+const url = `https://api.openweathermap.org/data/2.5/onecall?lat=38.9847&lon=77.0947&exclude=minutely,hourly&units=imperial&appid=12240cde702580291dd8baa5ce236efa`;
 
 async function apiFetch() {
     try {
         const response = await fetch(url);
         if (response.ok) {
             const data = await response.json();
-            console.log(data);
+            //console.log(data);
             displayResults(data);
         } else {
             throw Error(await response.text());
