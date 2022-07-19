@@ -62,7 +62,7 @@
         justify-self: center;
     }
     
-    .home section:nth-child(odd) div, .home section:nth-child(even) picture {
+    .home section:nth-child(odd) div, .home section:nth-child(odd) picture {
         grid-column: 2;
         grid-row: 1/3;
     }
