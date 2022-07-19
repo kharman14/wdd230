@@ -10,7 +10,6 @@ function checkStorage() {
 }
 
 function like(element){
-    console.log(element);
     let  currentElement_list = document.querySelectorAll('.thumbsUp0,.thumbsUp1,.thumbsUp2,.thumbsUp3,.thumbsUp4,.thumbsUp5');
     for (var i = 0; i < currentElement_list.length; i++) {
         if (currentElement_list[i].className == element.firstChild.className){
