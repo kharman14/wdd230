@@ -150,6 +150,7 @@ a:hover {
 /* Home Layout*/
 .home section p {
     padding: 1rem;
+    align-self: start;
 }
 
 h2 {
