@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temple Inn & Suites Reception</title>
-    <meta name="description" content="Temple Inn & Suites Reception">
+    <title>Temple Inn & Suites Reservation</title>
+    <meta name="description" content="Temple Inn & Suites Reservation">
     <link rel="icon" href="images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,9 +44,51 @@
     </header>
     <hr>
     <main>
-        <h2>Reservation</h2>
-        <form>
-            
+        <h2>Make a Reservation</h2>
+        <form class="reservation" action="thankyou.html">
+            <div class="section"><span>1</span>Room Information</div>
+            <div class="inner-wrap">
+                <label>Location
+                    <input list="locations" name="field1">
+                    <datalist id="locations">
+                        <option value="Provo City Center Temple">
+                        <option value="Laie Hawaii Temple">
+                        <option value="Washington D.C. Temple">
+                        <option value="Nauvoo Illinios Temple">
+                        <option value="Tokyo Temple"></option>
+                    </datalist></label>
+                <label>Start Date<input type="date" name="field2"></label>
+                <label>End Date<input type="date" name="field3"></label>
+                <label>Number of Rooms<input type="number" name="field4"></label>
+                <label>Type of Room
+                    <input list="rooms" name="field5">
+                    <datalist id="rooms">
+                        <option value="Queen Room">
+                        <option value="King Room">
+                        <option value="Twin">
+                        <option value="Double-Double">
+                        <option value="Long-term with Kitchenette">
+                        </option>
+                    </datalist></label>
+                </label>
+            </div>
+            <div class="section"><span>2</span>Personal Information</div>
+            <div class="inner-wrap">
+                <label>Your Full Name <input type="text" name="field6" /></label>
+                <label>Address <textarea name="field7"></textarea></label>
+                <label>Email Address <input type="email" name="field8" /></label>
+                <label>Phone Number <input type="text" name="field9" /></label>
+            </div>
+            <div class="section"><span>3</span>Other</div>
+                <div class="inner-wrap">
+                <label>Special Accommodations or Comments<textarea name="field10"></textarea></label>
+            </div>
+            <div class="button-section">
+             <input type="submit" name="Sign Up" />
+             <span class="privacy-policy">
+             <input type="checkbox" name="field11">You agree to our Terms and Policy. 
+             </span>
+            </div>
         </form>
     </main>
     <hr>

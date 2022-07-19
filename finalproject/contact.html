@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temple Inn & Suites Temples</title>
-    <meta name="description" content="Temple Inn & Suites Temples">
+    <title>Temple Inn & Suites Contact Us</title>
+    <meta name="description" content="Temple Inn & Suites Contact Us">
     <link rel="icon" href="images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +26,7 @@
                     <a href="index.html" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Temple</a>
+                    <a href="temple.html" class="nav-link">Temple</a>
                 </li>
                 <li class="nav-item">
                     <a href="reservation.html" class="nav-link">Reservation</a>
@@ -43,11 +43,31 @@
         </nav>
     </header>
     <hr>
-    <main id="temple_list">
-        <h2>Temple Locations</h2>
-        <div class="cards">
-
-        </div>
+    <main>
+        <h2>Contact Us</h2>
+        <form class="reservation" action="thankyou.html">            
+            <div class="section">Contact Information</div>
+            <div class="inner-wrap">
+                <label>Your Full Name <input type="text" name="field1"/></label>
+                <label>Email Address <input type="email" name="field2"/></label>
+                <label>Type of Inquery
+                    <input list="inquiry" name="field3">
+                    <datalist id="inquiry">
+                        <option value="Reception Hall">
+                        <option value="Full-Time Temple Missionary Room">
+                        <option value="Other">
+                        </option>
+                    </datalist></label>
+                </label>
+            </div>
+            <div class="section">Other</div>
+                <div class="inner-wrap">
+                <label>Comments<textarea name="field5"></textarea></label>
+            </div>
+            <div class="button-section">
+             <input type="submit" name="Sign Up" />
+            </div>
+        </form>
     </main>
     <hr>
     <footer>
@@ -67,8 +87,7 @@
             </svg></a>
         </div>
     </footer>
+    <script src="script/weather.js"></script>
     <script src="script/responsiveMenu.js"></script>
-    <script src="script/temple_list.js"></script>
-    <script src="script/like.js"></script>
 </body>
 </html>
