@@ -3,6 +3,10 @@
         grid-template-columns: 1fr 1fr 1fr .5fr;
     }
 
+    footer p {
+        grid-column: 1/5;
+    }
+
     .weather {
         width: 500px;
     }

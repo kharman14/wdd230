@@ -13,6 +13,11 @@ header, footer {
     font-family: 'Arima', cursive;
     display: grid;
     align-items: center;
+    padding: 5px;
+}
+
+footer a {
+    padding: 5px;
 }
 
 h1 {
