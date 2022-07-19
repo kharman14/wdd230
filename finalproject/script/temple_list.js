@@ -1,5 +1,6 @@
 const requestURL = 'json/templeinfo.json';
 const cards = document.querySelector('.cards');
+let i=0;
 
 fetch(requestURL)
     .then(function (response) {
@@ -37,7 +38,7 @@ function displayTemples(temple) {
     closure.textContent = `Closure: ${temple.closure}`;
 
     button_text.textContent = '👍 Like';
-    button_text.classList.add('thumbsUp');
+    button_text.classList.add(`thumbsUp${i}`);
     button.appendChild(button_text);
 
     button.classList.add('like');
@@ -60,4 +61,5 @@ function displayTemples(temple) {
     card.appendChild(button);
 
     document.querySelector('.cards').appendChild(card);
+    i++;
 }

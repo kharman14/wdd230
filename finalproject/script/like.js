@@ -1,20 +1,29 @@
 
-function like(element){
-    if(localStorage.getItem('storedColor') == 'black'){
-        let  currentElement = element.querySelector('.thumbsUp');
-        currentElement.style.color = 'orange';
-        localStorage.setItem('storedColor', 'orange');
-        console.log(localStorage.getItem('storedColor'));
-    }else{
-        let  currentElement = element.querySelector('.thumbsUp');
-        currentElement.style.color = 'black';
-        localStorage.setItem('storedColor', 'black');
+window.onload = checkStorage;
+
+function checkStorage() {
+    let  currentElement_list = document.querySelectorAll('.thumbsUp0,.thumbsUp1,.thumbsUp2,.thumbsUp3,.thumbsUp4,.thumbsUp5');
+    for (var i = 0; i < currentElement_list.length; i++) {
+        let currentElement = document.querySelector(`.thumbsUp${i}`);
+        currentElement.style.color = localStorage.getItem(`storedColors[${i}]`);
     }
 }
 
-window.addEventListener('DOMContentLoaded', e => {
-    let  currentElement_list = document.querySelectorAll('.thumbsUp');
+function like(element){
+    console.log(element);
+    let  currentElement_list = document.querySelectorAll('.thumbsUp0,.thumbsUp1,.thumbsUp2,.thumbsUp3,.thumbsUp4,.thumbsUp5');
     for (var i = 0; i < currentElement_list.length; i++) {
-        currentElement_list[i].style.color = localStorage.getItem("storedColor");
+        if (currentElement_list[i].className == element.firstChild.className){
+
+            if(localStorage.getItem(`storedColors[${i}]`) == 'black'){
+                let  currentElement = element.querySelector(`.thumbsUp${i}`);
+                currentElement.style.color = 'orange';
+                localStorage.setItem(`storedColors[${i}]`, 'orange');
+            } else{
+                let  currentElement = element.querySelector(`.thumbsUp${i}`);
+                currentElement.style.color = 'black';
+                localStorage.setItem(`storedColors[${i}]`, 'black');
+            }
+        }
     }
-}); 
+}
