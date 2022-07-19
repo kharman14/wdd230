@@ -162,10 +162,6 @@ h2 {
     width: 100%;
 }
 
-.family img {
-    padding: 30px;
-}
-
 /* Weather Card */
 .weather {
     display: grid;
