@@ -1,8 +1,6 @@
 
-let state = true;
-
 function like(element){
-    if(state){
+    if(localStorage.getItem('storedColor') == 'black'){
         let  currentElement = element.querySelector('.thumbsUp');
         currentElement.style.color = 'orange';
         localStorage.setItem('storedColor', 'orange');
@@ -12,7 +10,6 @@ function like(element){
         currentElement.style.color = 'black';
         localStorage.setItem('storedColor', 'black');
     }
-    state = !state;
 }
 
 window.addEventListener('DOMContentLoaded', e => {
