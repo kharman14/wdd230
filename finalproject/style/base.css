@@ -397,3 +397,11 @@ h2 {
     padding: 10px;
     margin-left: 10px;
 }
+
+.like {
+    padding: 5px;
+    background-color: white;
+    border: 1px solid #F6AE2D;
+    margin: 10px;
+    font-size: 1rem;
+}
