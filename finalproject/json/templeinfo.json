@@ -34,7 +34,7 @@
             "ordinance": "By appointment",
             "session": "By appointment",
             "closure": "Saturday, 8 October 2022",
-            "image": "images/tokyo_japan_temple.png"
+            "image": "images/tokyo_japan_temple.jpg"
         },
         {
             "name": "Manhattan New York City, New York",
@@ -46,7 +46,7 @@
             "ordinance": "By appointment",
             "session": "By appointment",
             "closure": "Monday, 25 July 2022 - Monday, 8 August 2022",
-            "image": "images/manhattan_temple.jpeg"
+            "image": "images/manhattan_temple.jpg"
         },
         {
             "name": "Washington D.C., Maryland",
@@ -58,7 +58,7 @@
             "ordinance": "Ordinances are currently paused due to renovation.",
             "session": "Sessions are currently paused due to renovation.",
             "closure": "The Washington D.C. temple is currently closed for renovations.",
-            "image": "images/washington_dc_temple.jpeg"
+            "image": "images/washington_dc_temple.jpg"
         },
         {
             "name": "Nauvoo, Illinois",
