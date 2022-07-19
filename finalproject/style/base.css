@@ -158,6 +158,10 @@ h2 {
     text-align: center;
 }
 
+.home h3 {
+    padding: 10px;
+}
+
 .temple img {
     width: 100%;
 }
@@ -234,6 +238,7 @@ h2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     background-color: transparent;
+    color: black;
 }
 
 .cards img {
@@ -253,7 +258,7 @@ h2 {
     padding: .3rem;
 }
 
-/* Reservation */
+/* Reservation and Contact Us Form */
 .reservation{
 	padding:30px;
 	margin:40px auto;
@@ -330,7 +335,7 @@ h2 {
 	border-radius: 6px;
 	-webkit-border-radius:6px;
 	-moz-border-radius:6px;
-	border: 2px solid #fff;
+	border: 2px solid #2F4858;
 	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
 	-moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
 	-webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
