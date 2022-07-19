@@ -189,6 +189,10 @@ h2 {
     align-self: center;
 }
 
+#caption {
+    grid-column: 1;
+}
+
 .forecast {
     display: flex;
     grid-column: 1/3;
